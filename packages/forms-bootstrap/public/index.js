@@ -1318,13 +1318,46 @@ var css = _createEmotion.css;
 var sheet = _createEmotion.sheet;
 var cache = _createEmotion.cache;
 
+// src/box.ts
+function box() {
+  const targetList = document.querySelectorAll(".ngm-box");
+  const style = css`
+        color: red;
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    `;
+  for (const target of targetList) {
+    target.classList.add(style);
+  }
+}
+
+// src/formControl.ts
+function formControl() {
+  const targetList = document.querySelectorAll(".ngm-form-control");
+  const padding = "10px";
+  const borderColor = "red";
+  const style = css`
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 30px;
+        /* font-family: $input-font-family; */
+        /* @include font-size($input-font-size); */
+        /* font-weight: $input-font-weight; */
+        line-height: 30px;
+        /* color: $input-color; */
+        /* background-color: $input-bg; */
+        background-clip: padding-box;
+        border: 1px solid ${borderColor};
+        border-radius: 5px;
+    `;
+  for (const target of targetList) {
+    target.classList.add(style);
+  }
+}
+
 // src/index.ts
-var app = document.getElementById("root");
-var style = css`
-    color: red;
-    background-color: black;
-    height: 600px;
-    width: 300px;
-    margin: 0 auto;
-`;
-app.classList.add(style);
+box();
+formControl();
