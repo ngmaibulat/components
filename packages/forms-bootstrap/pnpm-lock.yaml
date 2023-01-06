@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@aibulat/styled': ^0.0.3
+  '@aibulat/styled': ^0.0.4
   '@emotion/css': ^11.10.5
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
@@ -12,7 +12,7 @@ specifiers:
   react-dom: ^18.2.0
 
 dependencies:
-  '@aibulat/styled': 0.0.3_react@18.2.0
+  '@aibulat/styled': 0.0.4_react@18.2.0
   '@emotion/css': 11.10.5
   '@emotion/react': 11.10.5_kzbn2opkn2327fwg5yzwzya5o4
   '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
@@ -26,8 +26,8 @@ devDependencies:
 
 packages:
 
-  /@aibulat/styled/0.0.3_react@18.2.0:
-    resolution: {integrity: sha512-TiQXN/A1ZLq6RjhLlU24S5oJjwAkg0TFBoWCQjgWau3F3PjL7VIOZ3CuvNbHdtBspvcKH8uVt1bAEM2ZgsU7iA==}
+  /@aibulat/styled/0.0.4_react@18.2.0:
+    resolution: {integrity: sha512-yqsNdiyAddRm3sQkLVn1F5cGgEpijoQba0qF13S/vgTieW7bWLHcr0XyVmzraq6lXUnu8kcih6TowTsU7N//kQ==}
     dependencies:
       '@emotion/is-prop-valid': 1.2.0
       '@emotion/serialize': 1.1.1
